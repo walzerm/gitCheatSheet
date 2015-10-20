@@ -39,3 +39,13 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 #### Merging
 
 `$ git merge <branch name>` - Merges this branch with the master
+
+### Creating aliases
+
+For times when you are too lazy to type out the whole command (i.e. typing `checkout` is like 6 characters too long), you can create alises.
+
+`$ git config --global alias.<alias> <command>`
+
+i.e.:
+
+`$ git config --global alias.cm commit`
